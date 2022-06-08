@@ -1,0 +1,7 @@
+In this analytic project .
+I have  been  working  with  some  data  from wind  turbine  farm in my local  area .
+we have this situation ,  turbine may stop for any reason for seconds or  minutes  or even  days .
+so we needed to calculate the estimate KWH that should be produced over this stoping time .
+* This Excel file contains a 1 month log (up to 5000 row ) of all the times the turbine stopped and the time when it's back to work again .
+* knowing that we have a separate file with the average produce KW per second. 
+* the average kw per seconds  changed every 10 minute all day long
