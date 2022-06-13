@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import os
 import time
-file = "C:/Users/username/Desktop/Boook2.xlsx"
+file = "Boook2.xlsx"
 # 'windspeed' , 'Feuil2'
 
 df = pd.read_excel(file , sheet_name='HistoryAlarmLog')
@@ -85,4 +85,4 @@ while  s < number_of_rows_df :
 	df.loc[s, 'energy expected '] = counter
 	print(counter)
 	s+=1
-df.to_excel(r'C:\\Users\\aswan\\Desktop\\results.xlsx')
+df.to_excel(r'results.xlsx')
